@@ -1,0 +1,38 @@
+//Variables &
+$black: black;
+$white: white;
+$f-size-p-desktop:20px;
+$f-size-p-mobile:18px;
+
+
+
+//Nesting
+header{
+    background-color:$white;
+    nav{
+        padding: 20px;
+        margin: 10px;
+        ul{
+            list-style-type: none;
+            li{
+                padding: 10px;
+                a{
+                    text-decoration: none;
+                    color:$black;
+                    transition: 1s all;
+                    // font:{
+                    //     size: 20px;
+                    //     family:tahoma;
+                    //     weight:normal;
+                    // }
+                    &:hover{
+                        background-color:$black;
+                        border: radius 20px;
+                        color:$white;
+                    }
+                }
+
+            }
+        }
+    }
+}
